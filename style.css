@@ -118,12 +118,12 @@ h1{
       height: 45px;
     }
     h1{
-        margin-left: -350px;
+        margin-left: -421px;
         text-align: center;
         font-size: 50px;
     }
     #AdNote{
-        margin: 680px 350px;
+        margin: 516px 130px;
     }
    }
    @media only screen and (min-width: 769px)and (max-width: 1000px) {

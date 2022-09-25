@@ -1,0 +1,134 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*Code for home.html page*/
+#lead{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0C0032;
+}
+#mtext{
+    position: absolute;
+    top: 45%;
+    padding-left: 850px;
+    -ms-transform: translateY(-60%);
+    transform: translateY(-50%);
+    font-size: 100px;
+    color: aliceblue;
+}
+
+#AdNote{
+    position: fixed;
+    right: 1440px;
+    top: 750px;
+    background-color: #2d3436;
+    color: white;
+    padding: 25px;
+    font-weight: bold;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+/*Code for index.html page*/
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#b2bec3;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#addBtn {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: #2d3436;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+#save{
+    position:fixed;
+    display:flex;
+    margin-left: 30px;
+    background-color: #2d3436;
+    color: azure;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+#delete{
+    position:fixed;
+    display:flex;
+    margin-left: 200px;
+    background-color: #2d3436;
+    color: azure;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.note{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 30px;
+    margin-top: 60px;
+}
+.tool{
+    width: 100%;
+    background-color:black;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+  
+}
+.tool i{
+    color: #00cec9;
+    padding: 5px;
+    cursor: pointer;
+}
+.note textarea {
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.note textarea:focus {
+    border: 0;
+    outline: 0;
+}
+@media screen and (min-width: 1035px) {
+    #mtext{
+        position: absolute;
+        top: 50%;
+        padding-right: 400px;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        font-size: 100px;
+        color: aliceblue;
+    }
+
+    #AdNote{
+            margin-bottom: 550px;
+            background-color: #2d3436;
+            color: white;
+            padding: 12px;
+            font-weight: bold;
+            border: 0;
+            outline: 0;
+            border-radius: 5px;
+    }
+}

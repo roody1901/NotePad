@@ -7,30 +7,31 @@
 #lead{
     width: 100%;
     min-height: 100vh;
+    background-color: #0C0032;
+    padding-bottom: 50%;
     display: flex;
     flex-wrap: wrap;
-    background-color: #0C0032;
+    
 }
 h1{
     position: absolute;
     top: 45%;
     padding-left: 450px;
-    -ms-transform: translateY(-60%);
-    transform: translateY(-50%);
     font-size: 100px;
     color: aliceblue;
 }
 
 #AdNote{
-    position: fixed;
-    right: 1440px;
-    top: 750px;
+  
     background-color: #2d3436;
+    border: none;
     color: white;
-    padding: 25px;
-    font-weight: bold;
-    border: 0;
-    outline: 0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 740px 700px;
     border-radius: 5px;
 }
 
@@ -111,3 +112,31 @@ h1{
     outline: 0;
 }
 
+@media only screen and (min-width: 151px) and (max-width: 768px) {
+    #lead, #AdNote{
+      width: 120%;
+      height: 45px;
+    }
+    h1{
+        margin-left: -350px;
+        text-align: center;
+        font-size: 50px;
+    }
+    #AdNote{
+        margin: 680px 350px;
+    }
+   }
+   @media only screen and (min-width: 769px)and (max-width: 1000px) {
+    #lead, #AdNote{
+      width: 120%;
+      height: auto;
+    }
+    h1{
+        margin-left: -350px;
+        text-align: center;
+        font-size: 50px;
+    }
+    #AdNote{
+        margin: 680px 350px;
+    }
+   }

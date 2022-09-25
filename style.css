@@ -14,7 +14,7 @@
 h1{
     position: absolute;
     top: 45%;
-    padding-left: 850px;
+    padding-left: 450px;
     -ms-transform: translateY(-60%);
     transform: translateY(-50%);
     font-size: 100px;
@@ -110,25 +110,4 @@ h1{
     border: 0;
     outline: 0;
 }
-@media screen and (min-width: 1035px) {
-    #mtext{
-        position: absolute;
-        top: 50%;
-        padding-right: 400px;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        font-size: 100px;
-        color: aliceblue;
-    }
 
-    #AdNote{
-            margin-bottom: 550px;
-            background-color: #2d3436;
-            color: white;
-            padding: 12px;
-            font-weight: bold;
-            border: 0;
-            outline: 0;
-            border-radius: 5px;
-    }
-}
